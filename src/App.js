@@ -1,13 +1,19 @@
-import React from 'react';
+import React from 'react'
+import Layout from "./hoc/layout/Layout"
+import {Route, Switch} from "react-router-dom"
+import Analysis from "./containers/analisys/Analysis";
+import './App.module.css'
 
-import Layout from "./hoc/layout/Layout";
+
 
 function App() {
   return (
-    <Layout className="App">
-
+    <Layout>
+      <Switch>
+        <Route path={'/analysis'} component={Analysis} />
+      </Switch>
     </Layout>
-  );
+  )
 }
 
-export default App;
+export default App

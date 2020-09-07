@@ -2,9 +2,43 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    padding: 8px 10px;
 }
 .Layout main {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+}
+.viRunnerLogo {
+    background: url("../../assets/virunnerWhiteIco.svg");
+    background-size: cover;
+    width: 45px;
+    height: 51px;
+}
+.viRunner {
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+}
+.viRunnerDesc p div {
+    display: inline-block;
+    font-weight: 700;
+    color: var(--secondary);
+}
+.desc {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+}
+.viRunnerNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reg button {
+    margin-right: 8px;
 }

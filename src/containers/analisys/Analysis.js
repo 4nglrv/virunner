@@ -1,13 +1,13 @@
 import React, {Component} from "react";
 
-class Main extends Component {
+class Analysis extends Component {
     render() {
         return(
             <div>
-                <h1>Main</h1>
+                <h1>Analysis</h1>
             </div>
         )
     }
 }
 
-export default Main
+export default Analysis
