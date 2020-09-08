@@ -42,3 +42,22 @@
 .reg button {
     margin-right: 8px;
 }
+
+.circle {
+    background: #FFFFFF;
+    border-radius: 43px;
+    position: relative;
+    cursor: pointer;
+}
+
+.burger {
+    background: url("../../assets/burger.svg");
+    background-size: cover;
+    width: 14px;
+    height: 10px;
+    margin: 11px 9px;
+}
+
+.right {
+    display: flex;
+}

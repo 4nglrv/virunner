@@ -1,7 +1,7 @@
 .Button {
     font-size: 12px;
     font-weight: 700;
-    padding: 8px 16px;
+    padding: 9px 16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -16,3 +16,4 @@
     color: #fff;
     background-color: var(--mainBrandColor-dark);
 }
+
