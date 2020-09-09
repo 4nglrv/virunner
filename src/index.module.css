@@ -20,11 +20,11 @@
     url('./fonts/OpenSans-Bold.ttf') format('truetype')
 }
 body {
-    font-family: 'Open Sans';
+    background-color: #2D3C6A;
     color: #fff;
+    font-family: 'Open Sans';
 }
 * {
-    background-color: #2D3C6A;
     padding: 0;
     margin: 0;
 }

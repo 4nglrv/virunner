@@ -1,63 +1,38 @@
 .Layout{
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    padding: 8px 10px;
+    padding: 0px 10px;
 }
 .Layout main {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
-.viRunnerLogo {
-    background: url("../../assets/virunnerWhiteIco.svg");
-    background-size: cover;
-    width: 45px;
-    height: 51px;
-}
-.viRunner {
-    align-items: center;
+.content {
     display: flex;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 18px;
-    letter-spacing: -0.04em;
+    margin-top: 15px;
+    height: 80%;
 }
-.viRunnerDesc p div {
-    display: inline-block;
-    font-weight: 700;
-    color: var(--secondary);
-}
-.desc {
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 18px;
-    letter-spacing: -0.04em;
-}
-.viRunnerNav {
+.leftContent {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 34px;
+    width: 6%;
+    max-width: 48px;
+    min-width: 42px;
 }
-.reg button {
-    margin-right: 8px;
+.rightContent {
+    background: var(--mainBrandColor-dark);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    padding: 30px 34px;
+    width: 94%;
 }
-
-.circle {
-    background: #FFFFFF;
-    border-radius: 43px;
-    position: relative;
-    cursor: pointer;
+.blockContent{
+    background: var(--mainBrandColor);
+    border-radius: 2px;
+    height: 100%;
 }
-
-.burger {
-    background: url("../../assets/burger.svg");
-    background-size: cover;
-    width: 14px;
-    height: 10px;
-    margin: 11px 9px;
-}
-
-.right {
-    display: flex;
+.blockContent div {
+    width: 100%;
 }

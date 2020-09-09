@@ -1,0 +1,52 @@
+.viRunnerLogo {
+    background: url("../../assets/virunnerWhiteIco.svg");
+    background-size: cover;
+    width: 45px;
+    height: 51px;
+}
+.viRunner {
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+}
+.viRunnerDesc div div {
+    display: inline-block;
+    font-weight: 700;
+    color: var(--secondary);
+}
+.desc {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+}
+.viRunnerNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.reg button {
+    margin-right: 8px;
+}
+
+.circle {
+    background: #FFFFFF;
+    border-radius: 43px;
+    position: relative;
+    cursor: pointer;
+}
+
+.burger {
+    background: url("../../assets/burger.svg");
+    background-size: cover;
+    width: 14px;
+    height: 10px;
+    margin: 11px 9px;
+}
+.right {
+    display: flex;
+}
