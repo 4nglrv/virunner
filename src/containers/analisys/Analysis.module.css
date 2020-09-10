@@ -1,0 +1,50 @@
+.Analysis {
+    padding: 15px;
+    height: calc(100% - 30px);
+}
+.settingBtn {
+    align-items: center;
+    background-color: var(--mainBrandColor-dark);
+    border-radius: 5px;
+    color: var(--secondary);
+    cursor: pointer;
+    display: flex;
+    padding: 4px 10px;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: -0.05em;
+    width: 52px;
+    justify-content: center;
+    transition: .3s ease-in-out;
+    margin-left: auto;
+}
+.settingBtn:hover {
+    background-color: var(--secondary);
+    color: var(--mainBrandColor-dark);
+}
+.dropZone {
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 30px);
+}
+input[type=file] {
+    background: url("./../../assets/file.svg");
+    transition: .5s ease-in-out;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 10000px;
+    cursor: pointer;
+}
+input[type=file]:hover {
+    background: url("./../../assets/fileHover.svg");
+}

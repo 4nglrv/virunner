@@ -5,8 +5,10 @@ import {Route, Switch } from "react-router-dom"
 import Analysis from "./containers/analisys/Analysis"
 import Public from "./containers/public/Public"
 import AnalysisHistory from "./containers/history/AnalysisHistory"
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faCog } from '@fortawesome/free-solid-svg-icons'
 
-
+library.add(faCog)
 
 function App() {
   return (

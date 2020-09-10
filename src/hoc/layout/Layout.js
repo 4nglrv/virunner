@@ -1,6 +1,6 @@
 import React, {Component} from "react"
 import classes from "./Layout.module.css"
-import ContentLink from "../../components/UI/ContentLink/ContentLink";
+import ContentLink from "../../components/UI/contentLink/ContentLink";
 import MainNav from "../../components/mainNav/MainNav";
 
 
