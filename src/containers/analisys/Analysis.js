@@ -12,9 +12,10 @@ class Analysis extends Component {
                     <FontAwesomeIcon icon="cog" style={{marginLeft: 4}}/>
                 </div>
                 <div className={classes.dropZone}>
-                    <input type="file">
-
-                    </input>
+                    <div className={classes.filesUpload}>
+                        <input type="file">
+                        </input>
+                    </div>
                 </div>
             </div>
         )
