@@ -22,7 +22,7 @@
     background-color: var(--secondary);
     color: var(--mainBrandColor-dark);
 }
-.dropZone {
+.dropZone, .mediaInput {
     cursor: pointer;
     overflow: hidden;
     top: 0;
@@ -33,6 +33,42 @@
     height: calc(100% - 30px);
     display: table;
     table-layout: fixed;
+}
+.fileImage {
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fileImage::before {
+    content: "";
+    width: 107px;
+    height: 127px;
+    background: url("./../../assets/file.svg") no-repeat center;
+    position: relative;
+    display: table;
+    table-layout: fixed;
+}
+.fileImage::after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: 13px;
+    margin-top: 9px;
+    content: url("./../../assets/arrow.svg");
+    transition: .4s ease-in-out;
+}
+.dropZone:hover .fileImage::after {
+    margin-top: 28px;
+}
+.mediaInput {
+    position: sticky;
 }
 input[type=file] {
     transition: .5s ease-in-out;
@@ -52,8 +88,15 @@ input[type=file] {
     height: 100%;
     transition: .4s ease-in-out;
     background-size: 120px 140px;
-    background: url("./../../assets/file.svg") no-repeat center;
 }
-.filesUpload:hover {
-
+.inputTitle {
+    position: absolute;
+    margin-top: 168px;
+}
+.inputDesc {
+    position: absolute;
+    margin-top: 348px;
+    font-size: 12px;
+    width: 64%;
+    text-align: center;
 }
